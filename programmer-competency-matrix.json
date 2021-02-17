@@ -1,0 +1,74 @@
+{
+  "competencies": [
+    {
+      "name": "Design a SQL database",
+      "profile": "Backend, Fullstack",
+      "skills": "Database design, SQL",
+      "level": "Mid-level+",
+      "criteria": "Ensure the necessary level of normalization. There are primary and foreign keys. The right indexes are in place."
+    },
+    {
+      "name": "Build a REST API service",
+      "profile": "Backend, Fullstack",
+      "skills": "REST API, HTTP, Microservices",
+      "level": "Junior+",
+      "criteria": "Ensure the service functions on all endpoints, both for the \"Happy case\" and error cases (e.g. when dealing with invalid data)."
+    },
+    {
+      "name": "Optimize a REST endpoint for speed",
+      "profile": "Backend, Fullstack",
+      "skills": "REST API, HTTP, Microservices, Performance",
+      "level": "Senior+",
+      "criteria": "Ensure the service endpoint doesn't slow down as the data volume increases. This might require denormalizing the service database for a faster fetch."
+    },
+    {
+      "name": "Ensure no lost data under concurrent load",
+      "profile": "Backend, Fullstack",
+      "skills": "Microservices, Concurrency",
+      "level": "Senior+",
+      "criteria": "Ensure there is a protection mechanism (i.e. database transaction) for all non-atomic operations that mutate the state."
+    },
+    {
+      "name": "Fetch aggregated data from the SQL database",
+      "profile": "Backend, Fullstack",
+      "skills": "Database design, SQL",
+      "level": "Mid-level+",
+      "criteria": "Ensure there is a protection mechanism (i.e. database transaction) for all non-atomic operations that mutate the state."
+    },
+    {
+      "name": "Organize code as a set of low-coupled modules.",
+      "profile": "Backend, Fullstack, Frontend, Mobile",
+      "skills": "Clean code",
+      "level": "Mid-level+",
+      "criteria": "Ensure that the code is split into low-coupled modules. Evaluate how easy it'd be to extend the provided implementation with a new feature."
+    },
+    {
+      "name": "Document technical decisions",
+      "profile": "Backend, Fullstack, Frontend, Mobile",
+      "skills": "Docs",
+      "level": "Junior+",
+      "criteria": "Ensure that all important technical decisions are well-documented. Examples: running the project locally, library choice, any implementation trade-offs."
+    },
+    {
+      "name": "Integrate with a REST API",
+      "profile": "Frontend, Mobile",
+      "skills": "REST API, HTTP, State management",
+      "level": "Junior+",
+      "criteria": "Ensure that the app uses the correct API endpoints to integrate and organizes its internal state in a reasonable way. Also, ensure error handling when the backend returns an error."
+    },
+    {
+      "name": "Implement user-input validation",
+      "profile": "Frontend, Mobile",
+      "skills": "Data format, Validation",
+      "level": "Junior+",
+      "criteria": "Ensure that the app validates user input according to the expected data format."
+    },
+    {
+      "name": "Implement offline support",
+      "profile": "Frontend, Mobile",
+      "skills": "Resiliency, Concurrency, State management",
+      "level": "Senior+",
+      "criteria": "Ensure the following scenarios are covered: persisting the local state, synchronizing back on the recovered connection, race conditions with multiple devices - some online, some offline."
+    }
+  ]
+}
